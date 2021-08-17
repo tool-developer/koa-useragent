@@ -184,12 +184,15 @@ function detect(ua) {
     //
     os.micromessage = true;
   }
-  //uc
-  const DOMWindow = DOMWindow || {};
-  if (DOMWindow && DOMWindow.UCNewsJSController) {
-    os.uc = true,
-      os.browser = 'uc';
-  }
+  //
+  try{
+    //uc
+    const DOMWindow = window.DOMWindow || {};
+    if (DOMWindow && DOMWindow.UCNewsJSController) {
+      os.uc = true,
+        os.browser = 'uc';
+    }
+  }catch(e){}
   //
   try {
     //orientation

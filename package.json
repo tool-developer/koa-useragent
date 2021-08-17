@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/koa-useragent",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "koa useragent middleware",
   "main": "index.js",
   "scripts": {
