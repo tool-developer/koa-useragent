@@ -212,7 +212,7 @@ const UserAgent = function (useragent) {
   return detect(useragent);
 };
 //
-export default async function (ctx, next) {
+module.exports =  async (ctx, next) => {
   const req = ctx.request;
   //
   if (ctx.useragent) {
