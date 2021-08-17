@@ -20,5 +20,17 @@ import useragent from '@tool-developer/koa-useragent'
 const app = new Koa()
 //
 app.use(useragent);
+
+//
+app.use(async (ctx,next) => {
+    const ua=ctx.useragent||{};
+    //
+    console.log('useragent',ua);
+    // ua.desktop
+    // ua.mobile
+    // ...
+    //
+    await next();
+});
 //
 ```
