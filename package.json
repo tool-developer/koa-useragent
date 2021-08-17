@@ -1,0 +1,27 @@
+{
+  "name": "@tool-developer/koa-useragent",
+  "version": "0.0.1",
+  "description": "koa useragent middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tool-developer/koa-useragent.git"
+  },
+  "keywords": [
+    "useragent",
+    "koa useragent",
+    "koa-useragent"
+  ],
+  "author": "\"@tool-developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tool-developer/koa-useragent/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/tool-developer/koa-useragent#readme"
+}
