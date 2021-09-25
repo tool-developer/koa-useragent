@@ -1,4 +1,4 @@
-import UserAgent from '@tool-developer/wo-useragent';
+const  UserAgent = require('@tool-developer/wo-useragent');
 //
 module.exports =  async (ctx, next) => {
   const req = ctx.request;
