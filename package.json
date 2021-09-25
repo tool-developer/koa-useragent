@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/koa-useragent",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "koa useragent middleware",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/tool-developer/koa-useragent#readme"
+  "homepage": "https://github.com/tool-developer/koa-useragent#readme",
+  "dependencies": {
+    "@tool-developer/wo-useragent": "^0.0.1"
+  }
 }
